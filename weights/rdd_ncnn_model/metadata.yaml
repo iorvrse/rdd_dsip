@@ -1,0 +1,17 @@
+description: Ultralytics rdd model trained on datasets/rddFiltered/rdd_JapanIndia.yaml
+author: Ultralytics
+date: '2024-06-04T10:02:25.032990'
+version: 8.2.28
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: Longitudinal Crack
+  1: Transverse Crack
+  2: Alligator Crack
+  3: Potholes
